@@ -13,14 +13,11 @@ def reverse_integer(x):
 
     reversed_num *= sign
 
-    # Check overflow
     if reversed_num < INT_MIN or reversed_num > INT_MAX:
         return 0
 
     return reversed_num
 
-
-# Pruebas locales
 if __name__ == "__main__":
     print(reverse_integer(123))   # 321
     print(reverse_integer(-123))  # -321

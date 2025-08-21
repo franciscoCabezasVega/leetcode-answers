@@ -14,14 +14,12 @@ function reverseInteger(x) {
 
   reversed *= sign;
 
-  // Check overflow
   if (reversed < INT_MIN || reversed > INT_MAX) {
     return 0;
   }
   return reversed;
 }
 
-// Pruebas rápidas
 function main() {
   console.log(reverseInteger(123));   // 321
   console.log(reverseInteger(-123));  // -321
