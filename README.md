@@ -14,4 +14,6 @@ The following describes the folder structure and the purpose of each one.
 | **[`008. String to Integer (atoi)`](/008.%20String%20to%20Integer%20(atoi)/README.md)** | Implement the `myAtoi(string s)` function, which converts a string to a 32-bit signed integer. |
 | **[`009. Palindrome Number`](/009.%20Palindrome%20Number/README.md)** | Given an integer `x`, return `true` if `x` is a **palindrome**, and `false` otherwise. |
 | **[`010. Regular Expression Matching`](/010.%20Regular%20Expression%20Matching/README.md)** | Given an input string `s` and a pattern `p`, implement regular expression matching with support for `'.'` and `'*'` where: |
+| **[`011. Container With Most Water`](/011.%20Container%20With%20Most%20Water/README.md)** | You are given an integer array `height` of length `n`. There are `n` vertical lines drawn such that the two endpoints of the `ith` line are `(i, 0)` and `(i, height[i])`. |
+| **[`012. Integer to Roman`](/012.%20Integer%20to%20Roman/README.md)** | Seven different symbols represent Roman numerals with the following values: |
 ---
